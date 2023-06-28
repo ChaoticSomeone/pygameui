@@ -6,7 +6,6 @@ win = pg.display.set_mode((400,400))
 pg.display.set_caption("PyGameUI")
 
 def clicked(args):
-    self = args[0]
     print("Hello, world!")
 
 btn = pu.Button(win, pg.Rect(50,50,120,70), color=(255,0,0), onClick=clicked)
